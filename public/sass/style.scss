@@ -1,0 +1,98 @@
+body{
+	background-color: #F3F3F3;
+}
+
+.profileMain{
+	.profileUserInfo{
+		text-align: center;
+	}
+	.profileUserName{
+		h1{
+			font-size: 18px;
+		}
+	}
+}
+
+.profileSide{
+	background-color: white;
+}
+
+
+.profileContent{
+	background-color: #F9F9F9;
+	h2{
+		font-size: 22px;
+	}
+	ul > li, p{
+		font-size: 16px;
+	}
+}
+
+.profilePic{
+	margin-bottom: 20px;
+	margin-top: 65px;
+}
+
+.McULogo{
+	padding-top: 18px;
+	width: 70%;
+	height: auto;
+}
+
+.updated{
+	text-align: right;
+}
+
+ul.resume{
+	li{
+		list-style-type: none;
+		span{
+			font-size: 14px;
+		}
+	}
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.nav{
+	li{
+		i{
+			font-size: 18px;
+		}
+	}
+	li.active{
+		background-color: #eee;
+	}
+}
+
+p.pgs{
+	padding: 15px;
+}
+
+ul.publications{
+	h3{
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+	li{
+		list-style-type: decimal-leading-zero;
+		list-style-position: inside;
+		margin-bottom: 18px;
+	}
+}
+ul.address{
+	padding: 0;
+	li{
+		list-style-type: none;
+	}
+}
+
+.page-header{
+	margin-top: 15px;
+}
+
+
+
+
+
+
