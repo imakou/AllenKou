@@ -88,3 +88,25 @@ ul.address li {
 .page-header {
   margin-top: 15px;
 }
+
+.text-second {
+  color: #999999;
+}
+
+.profileContent h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p, li {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .02vw;
+}
+
+.exp_job_title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 15px;
+}
