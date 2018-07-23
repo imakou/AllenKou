@@ -14,7 +14,13 @@ Theme returned an error.<pre>Error: Cannot find module 'ejs'
     at /root/theme-manager/lib/theme.js:22:32
     at tryCatcher (/root/theme-manager/node_modules/bluebird/js/release/util.js:16:23)
     at Promise._settlePromiseFromHandler (/root/theme-manager/node_modules/bluebird/js/release/promise.js:512:31)
-    at Promise._settlePromise (/root/theme-manager/node_modules/bluebird/js/release/promise.js:569:18)</pre><h3>Theme Info</h3><pre>{
+    at Promise._settlePromise (/root/theme-manager/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromiseCtx (/root/theme-manager/node_modules/bluebird/js/release/promise.js:606:10)
+    at Async._drainQueue (/root/theme-manager/node_modules/bluebird/js/release/async.js:138:12)
+    at Async._drainQueues (/root/theme-manager/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/root/theme-manager/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)</pre><h3>Theme Info</h3><pre>{
   "name": "jsonresume-theme-rocketspacer",
   "version": "1.0.9",
   "description": "My (rocketspacer) personal theme for JSON Resume",
@@ -50,4 +56,143 @@ Theme returned an error.<pre>Error: Cannot find module 'ejs'
     "eslint-plugin-import": "^2.9.0"
   }
 }
-</pre><p><strong>We just launched the official 0.0.0 version recently, please make sure you update before continuing.</strong></p><h3>Resume.json Validation Test</h3><pre>null</pre>
+</pre><p><strong>We just launched the official 0.0.0 version recently, please make sure you update before continuing.</strong></p><h3>Resume.json Validation Test</h3><pre>{
+    "errors": [
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: Sep 2017",
+            "path": "#/work/[0]/startDate",
+            "params": {
+                "format": "date",
+                "error": "Sep 2017"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: Present",
+            "path": "#/work/[0]/endDate",
+            "params": {
+                "format": "date",
+                "error": "Present"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2015-05",
+            "path": "#/work/[1]/startDate",
+            "params": {
+                "format": "date",
+                "error": "2015-05"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2014-01",
+            "path": "#/work/[2]/startDate",
+            "params": {
+                "format": "date",
+                "error": "2014-01"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2014-05",
+            "path": "#/work/[2]/endDate",
+            "params": {
+                "format": "date",
+                "error": "2014-05"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2013-07",
+            "path": "#/work/[3]/startDate",
+            "params": {
+                "format": "date",
+                "error": "2013-07"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2014-12",
+            "path": "#/work/[3]/endDate",
+            "params": {
+                "format": "date",
+                "error": "2014-12"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2013-01",
+            "path": "#/work/[4]/startDate",
+            "params": {
+                "format": "date",
+                "error": "2013-01"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2013-7",
+            "path": "#/work/[4]/endDate",
+            "params": {
+                "format": "date",
+                "error": "2013-7"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2014-07",
+            "path": "#/volunteer/[0]/startDate",
+            "params": {
+                "format": "date",
+                "error": "2014-07"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: Present",
+            "path": "#/volunteer/[0]/endDate",
+            "params": {
+                "format": "date",
+                "error": "Present"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2015-01",
+            "path": "#/education/[0]/startDate",
+            "params": {
+                "format": "date",
+                "error": "2015-01"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2017-05",
+            "path": "#/education/[0]/endDate",
+            "params": {
+                "format": "date",
+                "error": "2017-05"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2007-08",
+            "path": "#/education/[1]/startDate",
+            "params": {
+                "format": "date",
+                "error": "2007-08"
+            }
+        },
+        {
+            "code": "FORMAT",
+            "message": "date format validation failed: 2011-08",
+            "path": "#/education/[1]/endDate",
+            "params": {
+                "format": "date",
+                "error": "2011-08"
+            }
+        }
+    ],
+    "warnings": []
+}</pre>

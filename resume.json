@@ -2,9 +2,9 @@
     "basics": {
         "name": "Ruei-Pu Kou",
         "label": "Web Developer, Font End Developer",
-        "picture": "https://nmtuan.space/jsonresume-theme-rocketspacer/dummy-profile.png",
+        "picture": "profile.jpg",
         "email": "imakou@gmail.com",
-        "website": "https://john.doe",
+        "website": "https://www.linkedin.com/in/allen-kou/",
         "summary": "4+ years of experience in front-end development(RWD, SPA). I have 2 years working experience of developing medium projects of web applications by React.js and others tools such as Git and Docker to enhance my developing performance, and I also have experience with the Serverless structure (AWS' Lambda and API Gateway). Currently, React and Redux is major frameworks I am using in my projects.",
         "location": {
             "city": "Toronto",
@@ -13,171 +13,165 @@
         },
         "profiles": [
             {
-                "network": "GitHub",
-                "username": "imakou",
-                "url": "https://github.com/imakou?tab=repositories"
+                "username": "Movie Stock (React/Redux)",
+                "url": "https://github.com/imakou/Movei-Stock"
             },
             {
-                "network": "Facebook",
-                "username": "John Doe",
-                "url": "https://www.facebook.com/johndoe"
+                "username": "Tennis ScoreBoard (React/Redux)",
+                "url": "https://github.com/imakou/ReactJs-tennis-scoreboard"
+            },
+            {
+                "username": "Real Time Chat Room (Node.js/Socket.io)",
+                "url": "https://github.com/imakou/Node-chatroom/tree/SimpleV"
             }
         ]
     },
     "work": [
         {
-            "company": "Google",
-            "position": "Software Engineer 1",
-            "website": "https://google.com",
-            "startDate": "2017-09-01",
-            "summary": "Help building components of the Foo system",
+            "company": "Gelenk Network INC - Markham, ON",
+            "position": "Web Developer",
+            "website": "https://www.genvoice.net/",
+            "startDate": "Sep 2017",
             "highlights": [
-                "Awarded 'Employee of the Month'",
-                "Optimize computational cost by 10%"
+                "Web Message:",
+                "Allowing users to create text and picture as message templates.",
+                "Quick replaying message by users' customized message templates.",
+                "Saving drafts when the message hasn't been submitted.",
+                "Allowing users to upload pictures by a draggable input area.",
+                "Rendering received messages' text and pictures(MMS).",
+                "Emoji is supported.",
+                "Fetching previous messages gradually rather than loading whole records.",
+                "GenVoice Portal:",
+                "Visualizing customer's usages as pie and line charts by BizChart.",
+                "Allowing users to set the IVR to apply for the phone numbers.",
+                "Creating the greeting voice by text or uploading file.",
+                "Validating the inputs from the form by Regular expression.",
+                "Allowing to arrange call flow by a visual dial pad.",
+                "Exporting bills as the formatted PDF file.",
+                "IVR(Interactive Voice Response) system with a visual keypad"
             ]
         },
         {
-            "company": "Microsoft",
-            "position": "Intern",
-            "website": "https://microsoft.com",
-            "startDate": "2015-05-01",
-            "endDate": "2015-08-01",
-            "summary": "Work here as an intern for the ABC project during summer"
+            "company": "University of Waterloo, Conrad Business Centre - Waterloo, ON",
+            "position": "Font-End Developer",
+            "website": "https://www.jamii.global/",
+            "startDate": "2015-05",
+            "endDate": "2015-07-31",
+            "highlights": [
+                "Implemented features based on React and Redux",
+                "Practiced features including dynamic data graph, real-time chatting (Twilio's API)",
+                "Built BDD testing practices (E2E by Cucumber, Selenium and Mocha)",
+                "Cooperated with UI/UX team and enhanced website’s components to be better "
+            ]
+        },
+        {
+            "company": "DIGIM - Taipei, Taiwan",
+            "position": "Font-End Developer",
+            "website": "https://www.digim.com.tw/",
+            "startDate": "2014-01",
+            "endDate": "2014-05",
+            "highlights": [
+                "Converted PSDs to web pages using HTML, CSS, and JavaScript",
+                "Developed retina display friendly RWD pages",
+                "Collaborated with the creative and back-end teams",
+                "Enhanced colleagues' developing performances by using Sass and HTML template(ERB) "
+            ]
+        },
+        {
+            "company": "Rexholiday - Taipei, Taiwan",
+            "position": "Web Developer",
+            "startDate": "2013-07",
+            "endDate": "2014-12",
+            "highlights": [
+                "Collaborated with stakeholders to improve an internal traveling system",
+                "Developed internal IT devices plan",
+                "Enhanced colleagues' working flow by using SaaS"
+            ]
+        },
+        {
+            "company": "Webike Taiwan - Taipei, Taiwan",
+            "position": "Web Developer",
+            "website": "https://www.webike.tw/",
+            "startDate": "2013-01",
+            "endDate": "2013-7",
+            "highlights": [
+                "Designed and developed the first version of prototype of eCommerce website base on Magento",
+                "Organized over 300k primitive data to MySQL database",
+                "Deployed project to EC2 instances in Linux environment on AWS",
+                "Made back-up plans and optimized servers' performances"
+            ]
         }
     ],
     "volunteer": [
         {
-            "organization": "Nerds movement",
-            "position": "Founder",
-            "website": "https://nerdsmovement.com",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Helping nerds around the world to realize their true nature"
-        },
-        {
-            "organization": "Charity Funds",
+            "organization": "Fa-Yi Chong-De Guang-Hui Association",
             "position": "Volunteer",
-            "website": "https://charityfunds.com",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Delivering help to people who needs it",
+            "startDate": "2014-07",
             "highlights": [
-                "Bring food to 350 sick people in need of help"
+                "Assisted members to run meetings using live streaming platform",
+                "Educated charity member on selection and implementation of electronic devices",
+                "Organizing meeting records and distributed records to members"
             ]
         }
     ],
     "education": [
         {
-            "institution": "MIT",
-            "area": "Artificial Intelligence",
-            "studyType": "Master",
-            "startDate": "2015-09-01",
-            "endDate": "2017-07-01"
+            "institution": "Seneca College - Toronto, ON",
+            "area": "Computer Programming",
+            "studyType": "Diploma",
+            "startDate": "2015-01",
+            "endDate": "2017-05"
         },
         {
-            "institution": "UC Berkeley",
-            "area": "Software Engineering",
+            "institution": "Hsing Wu University - Taipei, Taiwan",
+            "area": "Information mangerment",
             "studyType": "Bachelor",
-            "startDate": "2011-09-01",
-            "endDate": "2015-07-01",
-            "gpa": "3.2 / 4.0",
-            "courses": [
-                "DB1101 - Basic SQL",
-                "BE8080 - Distributed Systems"
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Employee of the month",
-            "date": "2018-01-15",
-            "awarder": "Google",
-            "summary": "Awarded for outstanding working performance"
-        }
-    ],
-    "publications": [
-        {
-            "name": "Optimizing artificial neural network",
-            "publisher": "Nature and Science journal",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "My publication on a new algorithm that speed up recognition in artificial neural network"
+            "startDate": "2007-08",
+            "endDate": "2011-08"
         }
     ],
     "skills": [
         {
             "name": "Frontend Development",
-            "level": "Master",
             "keywords": [
-                "HTML/CSS/Javascript",
-                "Boostrap",
-                "Babel",
                 "React/Redux",
-                "Webpack"
+                "Material UI",
+                "Ant Design",
+                "Boostrap",
+                "HTML/CSS/Javascript"
             ]
         },
         {
             "name": "Backend Development",
-            "level": "Master",
             "keywords": [
-                "NodeJS",
-                "Golang",
-                "MongoDB",
-                "Postgres",
-                "Redis"
+                "Node.js",
+                "Socket.io",
+                "Express",
+                "Chromeless",
+                "Cheerio",
+                "CouchDB"
             ]
         },
         {
-            "name": "System Administration",
-            "level": "Master",
+            "name": "Tools",
             "keywords": [
+                "Docker",
+                "Git",
+                "React Native",
+                "PhotoShop",
                 "AWS",
-                "Linux",
-                "NGINX",
-                "CloudFlare",
-                "Shell",
-                "Docker"
+                "GPC"
             ]
         }
     ],
     "languages": [
         {
             "name": "English",
-            "level": "Native speaker"
-        },
-        {
-            "name": "French",
             "level": "Proficient"
         },
         {
-            "name": "Japanese",
-            "level": "Beginner"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Anime",
-            "keywords": [
-                "Re:Zero",
-                "Steins Gate"
-            ]
-        },
-        {
-            "name": "Movies",
-            "keywords": [
-                "Star Wars",
-                "Lord of the Rings"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe <jane.doe@gmail.com>",
-            "reference": "Passionate and hard working man"
-        },
-        {
-            "name": "Don Joe",
-            "reference": "The best employee we could ever have"
+            "name": "Mandarin",
+            "level": "Native speaker"
         }
     ]
 }

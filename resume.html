@@ -1,582 +1,947 @@
-<!doctype html>
-<html>
-	<head>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	
-	<title>Ruei-Pu Kou</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-	margin-top: 0
-}
-section {
-	margin-top: 30px;
-}
-li {
-	line-height: 1.8;
-	list-style: none;
-}
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
-}
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
-}
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
-}
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
-}
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px; 
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
-}
+<!DOCTYPE html>
+<html lang="en">
 
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
-}
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
-}
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	</style>
-	
-	</head>
-	<body>
-	
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Ruei-Pu Kou
-					</h1>
-					<h2>
-						Web Developer, Font End Developer
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
+  <title>Ruei-Pu Kou</title>
 
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">imakou@gmail.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="https://john.doe">https://john.doe</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>4+ years of experience in front-end development(RWD, SPA). I have 2 years working experience of developing medium projects of web applications by React.js and others tools such as Git and Docker to enhance my developing performance, and I also have experience with the Serverless structure (AWS&#x27; Lambda and API Gateway). Currently, React and Redux is major frameworks I am using in my projects. In addition, I have good senses at UI/UX as you can take a look at the list at the bottom of this page.</p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						GitHub
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://github.com/imakou?tab=repositories">imakou</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						Facebook
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://www.facebook.com/johndoe">John Doe</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-98096246-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Google</span>
-					<span class="date">
-						2017-09-01 — 
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://google.com">https://google.com</a>
-				</div>
-				<div class="position">
-					Software Engineer 1
-				</div>
-				<div class="summary">
-					<p>Help building components of the Foo system</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Awarded &#x27;Employee of the Month&#x27;</li>
-					<li class="bullet">Optimize computational cost by 10%</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Microsoft</span>
-					<span class="date">
-						2015-05-01 — 2015-08-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://microsoft.com">https://microsoft.com</a>
-				</div>
-				<div class="position">
-					Intern
-				</div>
-				<div class="summary">
-					<p>Work here as an intern for the ABC project during summer</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Nerds movement</span>
-					<span class="date">
-						2012-01-01 — 2013-01-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://nerdsmovement.com">https://nerdsmovement.com</a>
-				</div>
-				<div class="position">
-					Founder
-				</div>
-				<div class="summary">
-					<p>Helping nerds around the world to realize their true nature</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Charity Funds</span>
-					<span class="date">
-						2012-01-01 — 2013-01-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://charityfunds.com">https://charityfunds.com</a>
-				</div>
-				<div class="position">
-					Volunteer
-				</div>
-				<div class="summary">
-					<p>Delivering help to people who needs it</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Bring food to 350 sick people in need of help</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>MIT</span>
-					<span class="date">
-						2015-09-01 — 2017-07-01
-					</span>
-				</h4>
-				<div class="area">
-					Artificial Intelligence
-				</div>
-				<div class="studyType">
-					Master
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>UC Berkeley</span>
-					<span class="date">
-						2011-09-01 — 2015-07-01
-					</span>
-				</h4>
-				<div class="area">
-					Software Engineering
-				</div>
-				<div class="studyType">
-					Bachelor
-				</div>
-				<h4>Courses</h4>
-				<ul class="courses">
-					<li>DB1101 - Basic SQL</li>
-					<li>BE8080 - Distributed Systems</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="awards" class="row">
-		<aside class="col-sm-3">
-			<h3>Awards</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Employee of the month</span>
-				</h4>
-				<div class="date pull-right">
-					<em>Awarded</em>
-					2018-01-15
-				</div>
-				<div class="awarder">
-					<em>by</em>
-					<strong>Google</strong>
-				</div>
-				<div class="summary">
-					Awarded for outstanding working performance
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="publications" class="row">
-		<aside class="col-sm-3">
-			<h3>Publications</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Optimizing artificial neural network</span>
-					<span class="date">
-						2014-10-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://publication.com"></a>
-				</div>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>Nature and Science journal</strong>
-				</div>
-				<div class="summary">
-					<p>My publication on a new algorithm that speed up recognition in artificial neural network</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Frontend Development</h4>
-				</div>
-				<ul class="keywords">
-					<li>HTML/CSS/Javascript</li>
-					<li>Boostrap</li>
-					<li>Babel</li>
-					<li>React/Redux</li>
-					<li>Webpack</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Backend Development</h4>
-				</div>
-				<ul class="keywords">
-					<li>NodeJS</li>
-					<li>Golang</li>
-					<li>MongoDB</li>
-					<li>Postgres</li>
-					<li>Redis</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>System Administration</h4>
-				</div>
-				<ul class="keywords">
-					<li>AWS</li>
-					<li>Linux</li>
-					<li>NGINX</li>
-					<li>CloudFlare</li>
-					<li>Shell</li>
-					<li>Docker</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
+    body {
+      background: #fff;
+      font-family: Lato, sans-serif;
+      font-weight: 300;
+      color: #333;
+      margin: 0 0 80px;
+      font-size: 15px;
+    }
 
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-			</div>
-			<div class="col-sm-6">
-			</div>
-			<div class="col-sm-6">
-			</div>
-			</div>
-		</div>
-	</section>
+    a {
+      color: #E32B46;
+    }
 
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Anime</h4>
-				</div>
-				<ul class="keywords">
-					<li>Re:Zero</li>
-					<li>Steins Gate</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Movies</h4>
-				</div>
-				<ul class="keywords">
-					<li>Star Wars</li>
-					<li>Lord of the Rings</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="references" class="row">
-		<aside class="col-sm-3">
-			<h3>References</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>Passionate and hard working man</p>
-					<p class="name">
-						<strong>— Jane Doe &lt;jane.doe@gmail.com&gt;</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>The best employee we could ever have</p>
-					<p class="name">
-						<strong>— Don Joe</strong>
-					</p>
-				</blockquote>
-			</div>
-			</div>
-		</div>
-	</section>
+    a:focus,
+    a:hover {
+      color: #333;
+      text-decoration: none;
+    }
 
-	</div>
-	
-	</body>
+    strong {
+      font-size: smaller;
+      font-weight: 400;
+      color: #333;
+    }
+
+    p {
+      line-height: 1.5;
+      margin: 0 0 .5em 0;
+    }
+
+    p+p {
+      margin-top: 10px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin-top: 0;
+      font-weight: 300;
+      color: #555;
+    }
+
+    section {
+      margin-top: 24px;
+    }
+
+    ul,
+    ol {
+      padding-left: 21px;
+    }
+
+    li {
+      line-height: 1.8;
+      list-style: none;
+    }
+
+    li:before {
+      content: "\f052";
+      float: left;
+      font: 16px Octicons;
+      margin-top: 6px;
+      margin-left: -20px;
+      opacity: .1;
+      position: absolute;
+    }
+
+    blockquote {
+      border-left: 3px solid #e7e9ec;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    em {
+      color: #666;
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    h4 span:first-child {
+      color: #333;
+      font-weight: 400;
+    }
+
+    .container {
+      max-width: 950px;
+      padding: 0 30px;
+    }
+
+    .col-sm-6 {
+      margin-bottom: 10px;
+    }
+
+    .col-sm-12 h4 {
+      margin-top: 12px;
+    }
+
+    .col-sm-12+.col-sm-12 {
+      margin-top: 30px;
+    }
+
+    #header {
+      padding: 50px 0 25px;
+    }
+
+    #header h2 {
+      color: #95a5a6;
+      font-size: 24px;
+    }
+
+    #content h3 {
+      color: #555;
+      font-size: 26px;
+      margin-top: -4px;
+    }
+
+    #content aside {
+      text-align: right;
+      padding-right: 30px;
+    }
+
+    #profiles .network {
+      text-transform: capitalize;
+    }
+
+    #work .position,
+    #volunteer .position {
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+
+    #education .area {
+      font-weight: 400;
+    }
+
+    #education .area:before {
+      content: "\f0d7";
+      font: 16px Octicons;
+      margin-right: 6px;
+    }
+
+    #education .studyType {
+      margin-left: 25px;
+    }
+
+    #awards .summary,
+    #publications .summary {
+      margin-top: 8px;
+    }
+
+    #publications .website a:before {
+      content: attr(href);
+    }
+
+    @media (min-width: 480px) {
+      .strike-through {
+        border-top: 1px solid #f4f6f6;
+        height: 20px;
+        margin-top: 12px;
+        margin-bottom: -2px;
+        position: relative;
+      }
+
+      .strike-through span,
+      .strike-through a {
+        background: #fff;
+        position: absolute;
+      }
+
+      .strike-through span:first-child {
+        padding-right: 20px;
+        margin-top: -12px;
+      }
+
+      .strike-through span+span {
+        font-size: 14px;
+        margin-top: -10px;
+        padding-left: 20px;
+        right: 0;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .col-sm-6:last-child {
+        margin-bottom: 0px;
+      }
+
+      #content aside {
+        margin-bottom: 20px;
+        padding-right: 0;
+        text-align: left;
+      }
+
+      #publications .website a:before {
+        content: "View publication";
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      #header h2 {
+        font-size: 24px;
+      }
+
+      #content h3 {
+        font-size: 20px;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      .date {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+
+      .strike-through span:first-child {
+        margin-bottom: 7px;
+      }
+
+      .strike-through span {
+        display: block;
+      }
+
+      #header {
+        padding: 30px 0 0;
+      }
+
+      #actions {
+        display: none;
+      }
+    }
+
+    @media print {
+      body {
+        font-size: 12px;
+      }
+
+      a[href]:after {
+        display: none;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      #header h2 {
+        font-size: 18px;
+        margin-top: -8px;
+      }
+
+      h4 {
+        font-size: 13px;
+      }
+
+      #header {
+        padding: 0;
+      }
+
+      #content aside {
+        margin: 0 !important;
+      }
+
+      #content h3 {
+        font-size: 16px;
+        margin-top: 0;
+      }
+
+      blockquote {
+        border: 0;
+        border-left: 3px solid #e7e9ec;
+        font-size: 12px;
+      }
+
+      li:before {
+        font: 10px Octicons;
+      }
+
+      .strike-through {
+        border-top-color: transparent;
+      }
+
+      .strike-through span+span {
+        font-size: 12px;
+      }
+
+      .col-sm-push-3 {
+        left: 25%;
+      }
+
+      .col-sm-1,
+      .col-sm-2,
+      .col-sm-3,
+      .col-sm-4,
+      .col-sm-5,
+      .col-sm-6,
+      .col-sm-7,
+      .col-sm-8,
+      .col-sm-9,
+      .col-sm-10,
+      .col-sm-11,
+      .col-sm-12 {
+        float: left;
+      }
+
+      .col-sm-12 {
+        width: 100%;
+      }
+
+      .col-sm-11 {
+        width: 91.66666666666666%;
+      }
+
+      .col-sm-10 {
+        width: 83.33333333333334%;
+      }
+
+      .col-sm-9 {
+        width: 75%;
+      }
+
+      .col-sm-8 {
+        width: 66.66666666666666%;
+      }
+
+      .col-sm-7 {
+        width: 58.333333333333336%;
+      }
+
+      .col-sm-6 {
+        width: 50%;
+      }
+
+      .col-sm-5 {
+        width: 41.66666666666667%;
+      }
+
+      .col-sm-4 {
+        width: 33.33333333333333%;
+      }
+
+      .col-sm-3 {
+        width: 25%;
+      }
+
+      .col-sm-2 {
+        width: 16.666666666666664%;
+      }
+
+      .col-sm-1 {
+        width: 8.333333333333332%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="profile.jpg" class="img-responsive img-circle pull-right" style="max-height: 88px">
+        </div>
+        <div class="col-sm-9">
+          <h1>Ruei-Pu Kou</h1>
+          <h2>Web Developer, Font End Developer</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENT: Re-arrange sections order if necessary -->
+  <div id="content" class="container">
+    <!-- Contact -->
+
+
+
+    <section id="contact" class="row">
+      <aside class="col-sm-3">
+        <h3>Contact</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <strong>Email</strong>
+            <div>
+              <a target="_blank" href="mailto:imakou@gmail.com">imakou@gmail.com</a>
+            </div>
+          </div>
+
+
+
+          <div class="col-sm-6">
+            <strong>Linkedin</strong>
+            <div>
+              <a target="_blank" onclick="ga('send', 'event', 'Click', 'Visit', 'LinkedIn')" href="https://www.linkedin.com/in/allen-kou/">https://www.linkedin.com/in/allen-kou/</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <strong>Resume</strong>
+            <div>
+              <a target="_blank" onclick="ga('send', 'event', 'Click', 'Visit', 'Resume')" href="./(F2E)Ruei-Pu_Kou.pdf">Download (Jul 23, 2018)</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About -->
+
+
+
+    <section id="about" class="row">
+      <aside class="col-sm-3">
+        <h3>About</h3>
+      </aside>
+      <div class="col-sm-9">
+        <p>4+ years of experience in front-end development(RWD, SPA). I have 2 years working experience of developing medium
+          projects of web applications by React.js and others tools such as Git and Docker to enhance my developing performance,
+          and I also have experience with the Serverless structure (AWS&#39; Lambda and API Gateway). Currently, React and
+          Redux is major frameworks I am using in my projects.</p>
+      </div>
+    </section>
+
+
+    <!-- Profiles -->
+
+
+
+    <section id="profiles" class="row">
+      <aside class="col-sm-3">
+        <h3>Side Projects</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <strong class="network"></strong>
+            <div class="url">
+              <a target="_blank" onclick="ga('send', 'event', 'Click', 'Visit', 'Movei-Stock')" href="https://github.com/imakou/Movei-Stock">Movie Stock (React/Redux)</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <strong class="network"></strong>
+            <div class="url">
+              <a target="_blank" onclick="ga('send', 'event', 'Click', 'Visit', 'Tennis ScoreBoard')" href="https://github.com/imakou/ReactJs-tennis-scoreboard">Tennis ScoreBoard (React/Redux)</a>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <strong class="network"></strong>
+            <div class="url">
+              <a target="_blank" onclick="ga('send', 'event', 'Click', 'Visit', 'Real Time Chat Room')" href="https://github.com/imakou/Node-chatroom/tree/SimpleV">Real Time Chat Room (Node.js/Socket.io)</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Work -->
+
+
+
+    <section id="work" class="row">
+      <aside class="col-sm-3">
+        <h3>Work</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Gelenk Network INC - Markham, ON</span>
+              <span class="date">
+                September 2017 — Now
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="https://www.genvoice.net/">https://www.genvoice.net/</a>
+            </div>
+            <div class="position">
+              Web Developer
+            </div>
+            <div class="summary">
+              <p></p>
+            </div>
+
+            <p>
+              <strong>Highlights</strong>
+            </p>
+            <ul class="highlights">
+
+              <li class="bullet">
+                <b>Web Message:</b>
+              </li>
+
+              <li class="bullet">Allowing users to create text and picture as message templates.</li>
+
+              <li class="bullet">Quick replaying message by users&#39; customized message templates.</li>
+
+              <li class="bullet">Saving drafts when the message hasn&#39;t been submitted.</li>
+
+              <li class="bullet">Allowing users to upload pictures by a draggable input area.</li>
+
+              <li class="bullet">Rendering received messages&#39; text and pictures(MMS).</li>
+
+              <li class="bullet">Emoji is supported.</li>
+
+              <li class="bullet">Fetching previous messages gradually rather than loading whole records.</li>
+
+              <li class="bullet">
+                <b>GenVoice Portal:</b>
+              </li>
+
+              <li class="bullet">Visualizing customer&#39;s usages as pie and line charts by BizChart.</li>
+
+              <li class="bullet">Allowing users to set the IVR to apply for the phone numbers.</li>
+
+              <li class="bullet">Creating the greeting voice by text or uploading file.</li>
+
+              <li class="bullet">Validating the inputs from the form by Regular expression.</li>
+
+              <li class="bullet">Allowing to arrange call flow by a visual dial pad.</li>
+
+              <li class="bullet">Exporting bills as the formatted PDF file.</li>
+
+              <li class="bullet">IVR(Interactive Voice Response) system with a visual keypad</li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>University of Waterloo, Conrad Business Centre - Waterloo, ON</span>
+              <span class="date">
+                April 2015 — July 2015
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="https://www.jamii.global/">https://www.jamii.global/</a>
+            </div>
+            <div class="position">
+              Font-End Developer
+            </div>
+            <div class="summary">
+              <p></p>
+            </div>
+
+            <p>
+              <strong>Highlights</strong>
+            </p>
+            <ul class="highlights">
+
+              <li class="bullet">Implemented features based on React and Redux</li>
+
+              <li class="bullet">Practiced features including dynamic data graph, real-time chatting (Twilio&#39;s API)</li>
+
+              <li class="bullet">Built BDD testing practices (E2E by Cucumber, Selenium and Mocha)</li>
+
+              <li class="bullet">Cooperated with UI/UX team and enhanced website’s components to be better </li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>DIGIM - Taipei, Taiwan</span>
+              <span class="date">
+                December 2013 — April 2014
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="https://www.digim.com.tw/">https://www.digim.com.tw/</a>
+            </div>
+            <div class="position">
+              Font-End Developer
+            </div>
+            <div class="summary">
+              <p></p>
+            </div>
+
+            <p>
+              <strong>Highlights</strong>
+            </p>
+            <ul class="highlights">
+
+              <li class="bullet">Converted PSDs to web pages using HTML, CSS, and JavaScript</li>
+
+              <li class="bullet">Developed retina display friendly RWD pages</li>
+
+              <li class="bullet">Collaborated with the creative and back-end teams</li>
+
+              <li class="bullet">Enhanced colleagues&#39; developing performances by using Sass and HTML template(ERB) </li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Rexholiday - Taipei, Taiwan</span>
+              <span class="date">
+                June 2013 — November 2014
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href=""></a>
+            </div>
+            <div class="position">
+              Web Developer
+            </div>
+            <div class="summary">
+              <p></p>
+            </div>
+
+            <p>
+              <strong>Highlights</strong>
+            </p>
+            <ul class="highlights">
+
+              <li class="bullet">Collaborated with stakeholders to improve an internal traveling system</li>
+
+              <li class="bullet">Developed internal IT devices plan</li>
+
+              <li class="bullet">Enhanced colleagues&#39; working flow by using SaaS</li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Webike Taiwan - Taipei, Taiwan</span>
+              <span class="date">
+                December 2012 — July 2013
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="https://www.webike.tw/">https://www.webike.tw/</a>
+            </div>
+            <div class="position">
+              Web Developer
+            </div>
+            <div class="summary">
+              <p></p>
+            </div>
+
+            <p>
+              <strong>Highlights</strong>
+            </p>
+            <ul class="highlights">
+
+              <li class="bullet">Designed and developed the first version of prototype of eCommerce website base on Magento</li>
+
+              <li class="bullet">Organized over 300k primitive data to MySQL database</li>
+
+              <li class="bullet">Deployed project to EC2 instances in Linux environment on AWS</li>
+
+              <li class="bullet">Made back-up plans and optimized servers&#39; performances</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skills -->
+
+
+
+    <section id="skills" class="row">
+      <aside class="col-sm-3">
+        <h3>Skills</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="name">
+              <h4>Frontend Development</h4>
+            </div>
+
+            <ul class="keywords">
+
+              <li>React/Redux</li>
+
+              <li>Material UI</li>
+
+              <li>Ant Design</li>
+
+              <li>Boostrap</li>
+
+              <li>HTML/CSS/Javascript</li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-sm-6">
+            <div class="name">
+              <h4>Backend Development</h4>
+            </div>
+
+            <ul class="keywords">
+
+              <li>Node.js</li>
+
+              <li>Socket.io</li>
+
+              <li>Express</li>
+
+              <li>Chromeless</li>
+
+              <li>Cheerio</li>
+
+              <li>CouchDB</li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-sm-6">
+            <div class="name">
+              <h4>Tools</h4>
+            </div>
+
+            <ul class="keywords">
+
+              <li>Docker</li>
+
+              <li>Git</li>
+
+              <li>React Native</li>
+
+              <li>PhotoShop</li>
+
+              <li>AWS</li>
+
+              <li>GPC</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Education -->
+
+
+
+    <section id="education" class="row">
+      <aside class="col-sm-3">
+        <h3>Education</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Seneca College - Toronto, ON</span>
+              <span class="date">
+                December 2014 — April 2017
+              </span>
+            </h4>
+            <div class="area">Computer Programming</div>
+            <div class="studyType">
+              Diploma
+
+            </div>
+
+          </div>
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Hsing Wu University - Taipei, Taiwan</span>
+              <span class="date">
+                July 2007 — July 2011
+              </span>
+            </h4>
+            <div class="area">Information mangerment</div>
+            <div class="studyType">
+              Bachelor
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Awards -->
+
+
+
+
+
+    <!-- Volunteer -->
+
+
+
+    <section id="volunteer" class="row">
+      <aside class="col-sm-3">
+        <h3>Volunteer</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Fa-Yi Chong-De Guang-Hui Association - Toronto, ON</span>
+              <span class="date">
+                June 2014 — Now
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href=""></a>
+            </div>
+            <div class="position">
+              Volunteer
+            </div>
+            <div class="summary">
+              <p></p>
+            </div>
+
+            <p>
+              <strong>Highlights</strong>
+            </p>
+            <ul class="highlights">
+
+              <li class="bullet">Assisted members to run meetings using live streaming platform</li>
+
+              <li class="bullet">Educated charity member on selection and implementation of electronic devices</li>
+
+              <li class="bullet">Organizing meeting records and distributed records to members</li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Publications -->
+
+
+
+
+    <!-- Languages -->
+
+
+
+    <section id="languages" class="row">
+      <aside class="col-sm-3">
+        <h3>Languages</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="language">
+              <strong>English</strong>
+            </div>
+            <div class="fluency">Proficient</div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="language">
+              <strong>Mandarin</strong>
+            </div>
+            <div class="fluency">Native speaker</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Interests -->
+
+
+
+
+    <!-- References -->
+
+
+
+
+  </div>
+</body>
+
 </html>
