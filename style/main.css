@@ -25,6 +25,12 @@ strong {
   color: #333;
 }
 
+strong.skill {
+  font-size: inherit;
+  font-weight: 400;
+  color: #333;
+}
+
 p {
   line-height: 1.5;
   margin: 0 0 .5em 0;
